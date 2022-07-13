@@ -14,10 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.abmlAPI.Portfolio.service.ISkillService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("/api")
 public class SkillController {
    @Autowired
      private ISkillService skillServ; 
