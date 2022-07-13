@@ -11,15 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
  
-@RestController
-//@RequestMapping("/user")
-<<<<<<< HEAD
+@RestController 
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/api")
-=======
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://portfolio-fe.netlify.app/iniciar-sesion")
->>>>>>> b349e6f317d774754e0c186d4484aa223465876b
+@RequestMapping("/api") 
 public class UserController {
     @Autowired
     public UserRepository userRepo;
