@@ -14,7 +14,7 @@
 	<name>portfolio</name>
 	<description>API ABML for my Portfolio #AP</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -47,12 +47,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	 <dependency>
-	  <groupId>org.springframework.boot</groupId>
-	  <artifactId>spring-boot-devtools</artifactId>
-	  <scope>runtime</scope>
-			<optional>true</optional>
-	 </dependency>
+                <dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
+                <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-devtools</artifactId>
+                 <scope>runtime</scope>
+                               <optional>true</optional>
+                </dependency>
 	</dependencies>
 
 	<build>
