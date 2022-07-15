@@ -2,9 +2,6 @@ package com.abmlAPI.Portfolio;
  
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication; 
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class PortfolioApplication {
@@ -13,7 +10,15 @@ public class PortfolioApplication {
          SpringApplication.run(PortfolioApplication.class, args);
                   System.out.println("holaa funca todo broooo");
          } 
-        @Bean
+        
+}
+
+/*import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;*/
+
+ /*
+      @Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
 			@Override
@@ -22,6 +27,4 @@ public class PortfolioApplication {
 			}
 		};
 	}
-        
-}
-
+    */
