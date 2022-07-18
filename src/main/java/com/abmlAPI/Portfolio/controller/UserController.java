@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
  
 @RestController 
-@CrossOrigin(origins = "https://portfolio-fe.netlify.app/iniciar-sesion", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RequestMapping("/api") 
 public class UserController {
     @Autowired
